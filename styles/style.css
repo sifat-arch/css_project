@@ -35,8 +35,10 @@ main {
 }
 
 section {
-  width: 15.625rem;
+  width: 100%;
+  overflow: hidden;
   max-height: 10rem;
+  flex-wrap: nowrap;
   overflow: hidden;
   padding: 0.5rem;
   margin: 0 1rem;
